@@ -1,0 +1,2 @@
+typing-extensions>=4.5.0  # For enhanced typing support
+pathlib~=1.0.1        # For path handling (though this is built-in for Python 3.4+)

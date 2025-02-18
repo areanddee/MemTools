@@ -1,0 +1,11 @@
+{
+  "preprocessor_config": {
+    "defines": {
+      "SPMD": true
+    },
+    "grid_parameters": {
+      "nx": 360,
+      "ny": 180
+    }
+  }
+}

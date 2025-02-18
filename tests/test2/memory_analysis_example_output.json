@@ -1,0 +1,36 @@
+{
+  "dims": {
+    "module": {
+      "name": "dims",
+      "file_path": "tests/test2/dims.F90",
+      "memory_usage": {
+        "static_arrays": [],
+        "allocatable_arrays": [],
+        "derived_types": []
+      },
+      "dependencies": []
+    }
+  },
+  "test_alloc": {
+    "program": {
+      "name": "test_alloc",
+      "file_path": "tests/test2/test_alloc.F90",
+      "memory_usage": {
+        "static_arrays": [],
+        "allocatable_arrays": [
+          {
+            "name": "a",
+            "type": "real(real64)",
+            "dimensions": "1:n,1:n",
+            "estimated_size": 8712
+          }
+        ],
+        "derived_types": []
+      },
+      "dependencies": [
+        "iso_fortran_env",
+        "dims"
+      ]
+    }
+  }
+}

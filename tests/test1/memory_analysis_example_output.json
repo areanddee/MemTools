@@ -1,0 +1,27 @@
+{
+  "test_mod": {
+    "module_name": "test_mod",
+    "file_path": "tests/test1/test_mod.F90",
+    "memory_usage": {
+      "static_arrays": [
+        {
+          "name": "field1",
+          "type": "c_double",
+          "dimensions": "nx,ny",
+          "estimated_size": 518400
+        },
+        {
+          "name": "field2",
+          "type": "c_float",
+          "dimensions": "nx,ny",
+          "estimated_size": 259200
+        }
+      ],
+      "allocatable_arrays": [],
+      "derived_types": []
+    },
+    "dependencies": [
+      "iso_c_binding"
+    ]
+  }
+}

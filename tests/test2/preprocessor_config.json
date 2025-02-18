@@ -1,0 +1,8 @@
+{
+  "preprocessor_config": {
+    "defines": {
+      "DIM_SIZE": 33
+    },
+    "test_description": "Basic allocation test with 33x33 matrix"
+  }
+}
